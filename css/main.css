@@ -1,0 +1,64 @@
+
+body{
+background: linear-gradient(#BCED91 49%, transparent 49%),
+        linear-gradient(-45deg, white 33%, transparent 33%) 0 50%,
+        white linear-gradient(45deg, white 33%, #BCED91 33%) 0 50%;
+    background-repeat: repeat-x;
+    background-size: 1px 100%, 40px 40px, 40px 40px;
+background-position: 0px 0px, 8px 8px, 0px 1px, 8px 9px; 
+background-image: radial-gradient(black 15%, transparent 16%), radial-gradient(black 15%, transparent 16%), radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%), radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%);
+background-attachment: scroll, scroll, scroll, scroll; 
+background-repeat: repeat, repeat, repeat, repeat; 
+background-size: 16px 16px; 
+background-origin: padding-box, padding-box, padding-box, padding-box; 
+background-clip: border-box, border-box, border-box, border-box; 
+background-color: rgb(40, 40, 40);	
+
+	}
+
+h1{
+	color: #FFFFFF;
+}	
+
+body ul{
+
+	background-color:#ffd700;
+}
+
+body ul li {
+display:inline;
+padding:40px;
+}
+
+a:hover, a:active, a:focus{
+	color: #FFFFFF;
+	text-decoration: none;
+	position: relative;
+	
+}
+
+a:link{
+	color: #000000;
+}
+
+a:visited{
+	color: #FFFFFF;
+}
+
+p{
+	color:#e5fff3;
+	text-shadow: 5px 5px 5px #ffd700;
+}
+
+#box contentnav{
+	width:50px;
+	color: #FFFFFF;
+	padding-bottom: 50px;
+}
+
+audio{
+}
+
+footer{
+	color:#e5fff3;
+}
